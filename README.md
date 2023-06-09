@@ -1,4 +1,4 @@
-# Wine Quality Prediction Web App
+# Wine Quality Prediction
 
 ## Project Overview
 This is a machine learning web application that predicts wine quality based on a number of chemical properties. The prediction model was trained on the Wine Quality dataset, and the web interface was created with Flask.
@@ -19,7 +19,7 @@ This is a machine learning web application that predicts wine quality based on a
 - SQLAlchemy
 
 ## Running the Application
-To run the application, simply execute the app.py file, and the Flask development server will start running on your local machine.
+To run the application, first run the wine-quality.jpynb file. This will run the stacked model and save it in a pickle. After pickle is saved, simply execute the app.py file, and the Flask development server will start running on your local machine.
 
 ## Usage
 After running the application, navigate to the localhost URL in your browser. Enter the required details for a wine sample and click the "Predict" button to get the predicted wine quality.
